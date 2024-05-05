@@ -1,0 +1,208 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{davidson2010youtube}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=067f1e3d219657d2c89fbaa1325dbfab}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f8d46891eb0ed5ddf22f2328af5b4005}{%
+           family={Liebald},
+           familyi={L\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4fb5cb8b2c16214ee418ae522a1fd510}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Junning},
+           giveni={J\bibinitperiod}}}%
+        {{hash=40ebb6010a87290889efa95b0140d772}{%
+           family={Nandy},
+           familyi={N\bibinitperiod},
+           given={Palash},
+           giveni={P\bibinitperiod}}}%
+        {{hash=284719336512a6493f09651d834d3937}{%
+           family={Van\bibnamedelima Vleet},
+           familyi={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Taylor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=221feb31222e9709346edf32861cd2c7}{%
+           family={Gargi},
+           familyi={G\bibinitperiod},
+           given={Ullas},
+           giveni={U\bibinitperiod}}}%
+        {{hash=9c3e605231bece2c8c049fc0f7b1197e}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Sujoy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=75fbd46900580390a782c8295c89ea78}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=108d8f226d4a0f07663b14d84869d9ea}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=781b0a9a6a6bb6a94e24c1c8d5745e2f}{%
+           family={Livingston},
+           familyi={L\bibinitperiod},
+           given={Blake},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{18807eb680c728a92cb63273ccc07715}
+      \strng{fullhash}{d58b7d692bade536768a3f7aa0ac15a4}
+      \strng{fullhashraw}{d58b7d692bade536768a3f7aa0ac15a4}
+      \strng{bibnamehash}{18807eb680c728a92cb63273ccc07715}
+      \strng{authorbibnamehash}{18807eb680c728a92cb63273ccc07715}
+      \strng{authornamehash}{18807eb680c728a92cb63273ccc07715}
+      \strng{authorfullhash}{d58b7d692bade536768a3f7aa0ac15a4}
+      \strng{authorfullhashraw}{d58b7d692bade536768a3f7aa0ac15a4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the fourth ACM conference on Recommender systems}
+      \field{title}{The YouTube video recommendation system}
+      \field{year}{2010}
+      \field{pages}{293\bibrangedash 296}
+      \range{pages}{4}
+    \endentry
+    \entry{edmunds2000problem}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b6b688757443c9399b2e82ae02e46033}{%
+           family={Edmunds},
+           familyi={E\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{hash=85a1f4be1aee8a2fd4aca6bfcfdb5df5}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8f186373afa48d9a794110d478259b91}
+      \strng{fullhash}{8f186373afa48d9a794110d478259b91}
+      \strng{fullhashraw}{8f186373afa48d9a794110d478259b91}
+      \strng{bibnamehash}{8f186373afa48d9a794110d478259b91}
+      \strng{authorbibnamehash}{8f186373afa48d9a794110d478259b91}
+      \strng{authornamehash}{8f186373afa48d9a794110d478259b91}
+      \strng{authorfullhash}{8f186373afa48d9a794110d478259b91}
+      \strng{authorfullhashraw}{8f186373afa48d9a794110d478259b91}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of information management}
+      \field{number}{1}
+      \field{title}{The problem of information overload in business organisations: a review of the literature}
+      \field{volume}{20}
+      \field{year}{2000}
+      \field{pages}{17\bibrangedash 28}
+      \range{pages}{12}
+    \endentry
+    \entry{goyani2020review}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=69b4570edd3e8feb79f1da9e3d0964b2}{%
+           family={Goyani},
+           familyi={G\bibinitperiod},
+           given={Mahesh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bcb433bf1e85d8b1396dc6419508b7d1}{%
+           family={Chaurasiya},
+           familyi={C\bibinitperiod},
+           given={Neha},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{fullhash}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{fullhashraw}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{bibnamehash}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{authorbibnamehash}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{authornamehash}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{authorfullhash}{d5e10d743e9f0e10157a74630b4ddde0}
+      \strng{authorfullhashraw}{d5e10d743e9f0e10157a74630b4ddde0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ELCVIA: electronic letters on computer vision and image analysis}
+      \field{number}{3}
+      \field{title}{A review of movie recommendation system: Limitations, Survey and Challenges}
+      \field{volume}{19}
+      \field{year}{2020}
+      \field{pages}{0018\bibrangedash 37}
+      \range{pages}{20}
+    \endentry
+    \entry{isinkaye2015recommendation}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0f864f45474a424964a3a01ef43bca02}{%
+           family={Isinkaye},
+           familyi={I\bibinitperiod},
+           given={Folasade\bibnamedelima Olubusola},
+           giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=e2dd4b5a839f39b59b19a5eafc72583e}{%
+           family={Folajimi},
+           familyi={F\bibinitperiod},
+           given={Yetunde\bibnamedelima O},
+           giveni={Y\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=b307dce7268a0da8de9f958015517a9f}{%
+           family={Ojokoh},
+           familyi={O\bibinitperiod},
+           given={Bolande\bibnamedelima Adefowoke},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{fullhash}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{fullhashraw}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{bibnamehash}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{authorbibnamehash}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{authornamehash}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{authorfullhash}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \strng{authorfullhashraw}{56a023cd8afabdad6b7e3c6d0fa4a2c9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Egyptian informatics journal}
+      \field{number}{3}
+      \field{title}{Recommendation systems: Principles, methods and evaluation}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{pages}{261\bibrangedash 273}
+      \range{pages}{13}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

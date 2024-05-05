@@ -1,0 +1,59 @@
+------------ Ngày 12/03 -------------
+
+Tiêu chí luận văn:
+1. Tính cấp thiết (ý nghĩa: thực tiễn, khoa học) của đề tài có tốt không?
+2. Trùng lặp không?: có đạo văn không, có đạo ý tưởng không,...
+3. Phù hợp hay không?: 
+	- giữa tên và nội dung
+	- nội dung và ngành đào tạo
+4. Độ tin cậy?
+5. Kết quả là gì?
+6. Hình thức:
+	- Bố cục có logic không?
+	- Văn phong có phù hợp không?
+	- Hình thức khác với quy định không (có theo đúng format không)?
+7. Ý kiến nhận xét khác (Ví dụ như những comment mà để sửa)
+
+
+- Các thầy phải tham gia vào quá trình viết luận văn để có cái nhìn tổng quan về luận văn luôn, chứ không được viết liên tục xong mới gửi 
+cho thầy hướng dẫn xem
+
+*) Cách viết luận văn:
+- làm đề cương:
+	+ Viết chương, mục -> dàn ý (phân nhỏ ra tối đa về các ý định viết, mỗi mục của mỗi chương định viết cái gì, có mấy ý là những ý nào?) - trao
+	đổi với các thầy về dàn ý viết đã ổn chưa
+*) Bố cục:
+- Chương 1: Giới thiệu (đặt vấn đề)
+	+ Bối cảnh: không gian, hướng nghiên cứu mà luận văn nằm bên trong đó
+	+ Bài toán: bài toán là gì, tại sao chọn bài toán này, ý nghĩa của bài toán này là gì, 
+	+ Related works - Người khác đã giải quyết bài toán này tới đâu, và cái mình làm phải giải quyết cái mà người ta chưa làm hoặc chưa làm tốt (nếu 
+	làm theo hướng nghiên cứu, còn hướng áp dụng (làm tool) thì cần trả lời trong thực tế đã có công cụ như vậy chưa)
+
+- Chương 2: Kiến thức nền tảng được luận văn này sử dụng
+
+- Chương 3: Phương pháp, cách làm: Mô tả rất rõ về công thức, lý thuyết...
+
+- Chương 4: Công cụ và thực nghiệm
+
+- Chương 5: Tổng kết 
+	+ Luận văn này đã đạt được những kết quả gì
+	+ Để đạt được kết quả như vậy thì đã làm như thế nào
+	+ Hạn chế, chưa làm được cái gì so với tưởng tượng, cái gì chưa tốt -> suy ra future work
+	+ Tài liệu tham khảo
+
+*) Văn phong: 
+	- Văn phong khoa học phải viết theo kiểu diễn giải
+	- Để ý các liên từ liên kết các đoạn văn cho liền mạch
+	- Tuyệt đối không đạo văn
+
+
+Thứ tự viết nên theo:
+Chương 3 -> Chương 4 -> Chương 2 -> Chương 5 -> Chương 1
+
+
+
+--------------- Ngày 20/3 ---------------
+
+--------------- Ngày 27/3 ---------------
+
+
