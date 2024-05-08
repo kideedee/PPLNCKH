@@ -19,6 +19,32 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{bayes1968naive}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8ff440e2297bcb6fa5a90987e117358b}{%
+           family={Bayes},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{fullhash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{fullhashraw}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{bibnamehash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{authorbibnamehash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{authornamehash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{authorfullhash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{authorfullhashraw}{8ff440e2297bcb6fa5a90987e117358b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Article Sources and Contributors}
+      \field{title}{Naive bayes classifier}
+      \field{year}{1968}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+    \endentry
     \entry{davidson2010youtube}{inproceedings}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -161,6 +187,57 @@
       \field{pages}{0018\bibrangedash 37}
       \range{pages}{20}
     \endentry
+    \entry{hearst1998support}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=45330e5d45157c38c5519d8cdb6cb1d8}{%
+           family={Hearst},
+           familyi={H\bibinitperiod},
+           given={Marti\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b281fab8d7a0d96509cc71fbce9567cd}{%
+           family={Dumais},
+           familyi={D\bibinitperiod},
+           given={Susan\bibnamedelima T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ababb07c9776ce704d69b2b61c4bda57}{%
+           family={Osuna},
+           familyi={O\bibinitperiod},
+           given={Edgar},
+           giveni={E\bibinitperiod}}}%
+        {{hash=74ebe0fc06c0292871d5f756cfe5414d}{%
+           family={Platt},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a8ec77afd672acfe7820edd22821493e}{%
+           family={Scholkopf},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{977dd5469e7acdeb9b8d94f10410ca30}
+      \strng{fullhash}{f745842dcc3642337f0500cae62327df}
+      \strng{fullhashraw}{f745842dcc3642337f0500cae62327df}
+      \strng{bibnamehash}{977dd5469e7acdeb9b8d94f10410ca30}
+      \strng{authorbibnamehash}{977dd5469e7acdeb9b8d94f10410ca30}
+      \strng{authornamehash}{977dd5469e7acdeb9b8d94f10410ca30}
+      \strng{authorfullhash}{f745842dcc3642337f0500cae62327df}
+      \strng{authorfullhashraw}{f745842dcc3642337f0500cae62327df}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Intelligent Systems and their applications}
+      \field{number}{4}
+      \field{title}{Support vector machines}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{pages}{18\bibrangedash 28}
+      \range{pages}{11}
+    \endentry
     \entry{isinkaye2015recommendation}{article}{}{}
       \name{author}{3}{}{%
         {{hash=0f864f45474a424964a3a01ef43bca02}{%
@@ -201,6 +278,95 @@
       \field{year}{2015}
       \field{pages}{261\bibrangedash 273}
       \range{pages}{13}
+    \endentry
+    \entry{nam2012nguyen}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d76b0128d30e120d38c1f096ab237dfd}{%
+           family={Nam\bibnamedelimb Nguyễn\bibnamedelima Hà},
+           familyi={N\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Thụy\bibnamedelimb Hà\bibnamedelima Quang},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           suffix={Thành\bibnamedelimb Nguyễn\bibnamedelima Trí},
+           suffixi={T\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{fullhash}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{fullhashraw}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{bibnamehash}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{authorbibnamehash}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{authornamehash}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{authorfullhash}{d76b0128d30e120d38c1f096ab237dfd}
+      \strng{authorfullhashraw}{d76b0128d30e120d38c1f096ab237dfd}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Giáo trình khai phá dữ liệu}
+      \field{title}{Giáo trình khai phá dữ liệu}
+      \field{year}{2012}
+    \endentry
+    \entry{platt1998sequential}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=74ebe0fc06c0292871d5f756cfe5414d}{%
+           family={Platt},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{fullhash}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{fullhashraw}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{bibnamehash}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{authorbibnamehash}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{authornamehash}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{authorfullhash}{74ebe0fc06c0292871d5f756cfe5414d}
+      \strng{authorfullhashraw}{74ebe0fc06c0292871d5f756cfe5414d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sequential minimal optimization: A fast algorithm for training support vector machines}
+      \field{year}{1998}
+    \endentry
+    \entry{yang2022exploring}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d14ea3b431776e8f559cf4b80e010f12}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Luming},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3706cca221917fbf223a676bee5ec1dd}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=54b9fac713af4dae626f439900fede02}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{fullhash}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{fullhashraw}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{bibnamehash}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{authorbibnamehash}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{authornamehash}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{authorfullhash}{4feeab3234216f8a5f5104031c5472a2}
+      \strng{authorfullhashraw}{4feeab3234216f8a5f5104031c5472a2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Retailing and Consumer Services}
+      \field{title}{Exploring the core factors of online purchase decisions by building an E-Commerce network evolution model}
+      \field{volume}{64}
+      \field{year}{2022}
+      \field{pages}{102784}
+      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection

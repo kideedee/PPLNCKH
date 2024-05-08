@@ -1,4 +1,77 @@
 \chapter{Phương pháp giải quyết vấn đề}
 \label{chap3}
 
-Phương pháp giải quyết vấn đề
+\section{Hành vi người dùng trên mạng xã hội}
+
+\subsection{Hành vi đánh giá}
+Các hệ tư vấn thường được xây dựng từ:
+\begin{itemize}
+    \item Tập người dùng $W={w_1, w_2, ..., w_n}$
+    \item Tập sản phẩm $X={x_1, x_2, ..., x_n}$
+\end{itemize}
+Hành vi đánh giá là hành động người dùng chấm điểm cho sản phẩm. Thông tin này
+được lưu trữ và thường được sử dụng làm cơ sở cho hệ thống thực hiện tư vấn. Điểm
+đánh giá từ người dùng $w_i$ cho sản phẩm $x_j$ được định nghĩa như sau:
+\begin{equation}
+    rating_{ij} = y, ~~~~~~ y \in {1, 2, ..., t}
+\end{equation}
+Trong đó, $t$ thường được chọn là 5 hoặc 10.
+
+\subsection{Hành vi bình luận}
+\label{hvbl}
+Hành vi bình luận là hành động của người dùng khi diễn đạt suy nghĩ, quan điểm của
+mình bằng văn bản. Người dùng thực hiện hành vi bình luận đối với sản phẩm thay vì
+hành vi chấm điểm sẽ mô tả rõ hơn trải nghiệm, suy nghĩ của họ đối với sản phẩm. Mỗi
+bình luận $comment_{ij}$ người dùng $w_i$ bày tỏ quan điểm đối với sản phẩm $x_j$. Bình luận
+mang nhãn 0 nếu người dùng thích hoặc khen khách sạn. Ngược lại, bình luận mang
+nhãn 1 nếu người dùng không thích hoặc chê khách sạn.
+\begin{equation}
+    comment_{ij} = \left\{
+        \begin{array}{ c l }
+            0 & \text{nếu $w_i$ thích $x_j$} \\ 
+            1 & \text{nếu ngược lại}
+        \end{array}
+    \right.
+\end{equation}
+
+\subsection{Mô hình kết hợp hành vi đánh giá và hành vi bình luận}
+Để sử dụng dữ liệu hành vi đánh giá và bình luận cùng lúc cho tư vấn khách sạn thì
+cần có một phương pháp để kết hợp hai loại dữ liệu này. Như đã trình bày trong Phần
+\ref{hvbl}: $rating_{ij}$: Điểm đánh giá từ người dùng $w_i$ cho sản phẩm $x_j$ và 
+$comment_{ij}$: Bình luận bày tỏ quan điểm từ người dùng $w_i$ cho sản phẩm $x_j$.
+Theo \cite{yang2022exploring}, các bình luận tiêu cực có ảnh hưởng không nhỏ tới quyết định 
+mua hàng của người dùng. Tuy nhiên, nếu sản phẩm có nhiều phản hồi tích cực thì cũng làm tăng 
+khả năng mua hàng của người dùng. Do đó, đồ án thực hiện kết hợp dựa trên ý tưởng:
+\textbf{“Nếu khách sạn có bình luận tiêu cực thì điểm đánh giá dành cho khách sạn này cần
+phải hạ xuống. Tuy nhiên, khách sạn có nhiều phản hồi tích cực thì điểm đánh giá
+cũng cần được tăng lên”}. Điều này có nghĩa là, nếu khách sạn có nhiều phản hồi tích
+cực thì các điểm đánh giá dành cho khách sạn này sẽ được thưởng thêm và ngược lại,
+nếu khách sạn có nhiều bình luận phàn nàn thì điểm đánh giá sẽ bị trừ đi.
+
+Với ý tưởng trên, điểm đánh giá dự đoán $rating_{ij}$ của người dùng $w_i$ với khách sạn
+$x_j$ , tỷ lệ số bình luận tích cực $p\_rate_j$, tỷ lệ số bình luận tiêu cực 
+$n\_rate_j$ của khách sạn $x_j$ sẽ là 3 thành phần quyết định tới điểm đánh giá cuối 
+cùng dành cho  khách sạn. Coi điểm đánh giá cuối cùng là 100\%, $\alpha$ và $\beta$ là 2 trọng 
+số tương ứng của $rating_{ij}$, $p\_rate_j$ và $n\_rate_j$ quyết định mức độ ảnh 
+hưởng của 2 thành  phần này lên điểm đánh giá cuối cùng. Như vậy, điểm đánh giá cuối cùng 
+của người dùng có thể  biểu diễn theo công thức:
+\begin{equation}
+    c\_rating(w_i, x_j) = \alpha \times rating_{ij} + \beta \times (p\_rate_j - n\_rate_j)
+\end{equation}
+Trong đó:
+\begin{itemize}
+    \item $c\_rating(w_i, x_j) \in [0; 5]$ là điểm đánh giá kết hợp, được sử dụng để làm dữ liệu thực
+        hiện huấn luyện và đánh giá
+    \item $rating_{ij} \in [0; 5]$ là điểm đánh giá được dự đoán thông qua thuật toán lọc 
+        cộng tác, 
+    \item $p\_rate_j \in [0; 1]$ là tỉ lệ số $comment_{ij}=0$ trong tổng số các 
+        $comment_{ij}$ của sản phẩm $x_j$
+    \item $n\_rate_j \in [0; 1]$ là tỉ lệ số $comment_{ij}=1$ trong tổng số các 
+        $comment_{ij}$ của sản phẩm $x_j$
+    \item Do $rating_{ij}$ nằm trong khoảng giá trị khác với $p\_rate_j$ và $n\_rate_j$ 
+        vì vậy, trước khi thực hiện kết hợp, đồ án thực hiện chuyển $rating_{ij}$ về cùng 
+        khoảng giá trị $[0;1]$ với $p\_rate_j$ và $n\_rate_j$ bằng cách 
+        $rating_{ij}=\frac{rating_{ij}}{5}$
+    \item Sau khi thực hiện tính toán, để đưa điểm đánh giá dự đoán về khoảng ban đầu,
+        ta chỉ cần thực hiện $c\_rating(w_i, x_j) = c\_rating(w_i, x_j) \times 5$
+\end{itemize}
